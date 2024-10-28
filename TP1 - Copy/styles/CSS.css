@@ -1,0 +1,186 @@
+body {
+    width: 1000px;
+    margin: auto;
+    font-family: sans-serif;
+}
+.grid{
+    display: grid;
+}
+.cvGrid {
+    margin: 1px;
+     width: 100%;
+    background-color: white;
+}
+
+.topRow{
+    grid-template-columns: 500px 450px 62px;
+    border-left: 13px solid rgb(0, 96, 173);
+    margin-top: 20px;
+}
+.cvName{
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-family: "Fjalla One", sans-serif;
+    padding-left: 10px;
+}
+
+.prenom{
+    color: rgb(253, 28, 34);
+}
+.nom{
+    color: rgb(0, 96, 173);
+}
+
+.profilPhoto {
+    width: 200px;
+    height: 200px;
+    border-radius: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    display: inline-block;
+    border: 4px solid white;
+    outline: 8px solid rgb(253, 28, 34);
+   
+   
+}
+.photoColumn{
+    align-content: center;
+    text-align: center;
+}
+
+.socialRow{
+    grid-template-columns: 60px 550px;
+}
+
+.pictogramPhoto {
+    width: 30px;
+    height: 30px;
+    border-radius: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    display: inline-block;
+}
+
+.pictoBox{
+    align-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.socialInfo{
+    text-align: left;
+    align-content: center;
+    margin-top: 10px;
+    font-family: "Fjalla One", sans-serif;
+}
+
+.rightBorder{
+    border-right: 13px solid rgb(253, 28, 34) ;
+    height: 120px;
+    margin: auto;
+    
+}
+.travail{
+    width: 400px;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    background: rgb(0, 96, 173);
+    border-radius: 5px;
+    padding: 4px;
+    margin-top: 50px ;
+    color: white;
+    font-family: "Fjalla One", sans-serif;
+}
+
+.contentRow{
+    grid-template-columns: 350px 650px;
+    margin-top: 10px
+}
+
+.leftColumn{
+    border-right: 3px solid rgb(0, 96, 173);
+}
+
+.rightColumn{
+    padding: 20px;
+    padding-right: 50px;
+}
+.sousTitreDroite{
+    width: 400px;
+    font-size: 20px;
+    text-align: left;
+    background: rgb(253, 28, 34);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding: 3px;
+    color: white;
+    margin-bottom: 25px;
+    font-family: "Fjalla One", sans-serif;
+}
+
+.formation{
+    margin-top: 30px;
+}
+
+.formationContent{
+    margin-top: 20px;
+}
+
+.sousTitreGauche{
+    width: 290px;
+    font-size: 20px;
+    text-align:left;
+    margin: auto;
+    background: rgb(253, 28, 34);
+    border-radius: 5px;
+    padding: 2px;
+    color: white;
+    padding-left: 10px;
+    margin-top: 20px;
+    font-family: "Fjalla One", sans-serif;
+}
+
+.sousTitreAlternatif{
+    font-size: 20px;
+    color:rgb(253, 28, 34);
+    padding-left: 25px;
+    font-family: "Fjalla One", sans-serif;
+    
+}
+
+
+.categories{
+    font-weight: bolder;
+    font-size: 16px;
+    margin-top: 12px;
+    font-family: "Fjalla One", sans-serif;
+}
+
+.description{
+    text-align: justify;
+    color: gray;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+.date{
+    color: rgb(253, 28, 34);
+}
+
+.list{
+    padding-top: 3px;
+}
+
+
+
+.paddingCategoriesLeft{
+    padding-left: 25px;
+}

@@ -1,0 +1,67 @@
+body{
+    width: 100%;
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    background: linear-gradient(45deg, white, white, red);
+    margin: auto;
+    border: 1px solid black;
+    
+    
+  }
+
+.logo{
+    width: 30%;
+}
+
+divx{
+    border: 1px solid red;
+}
+
+.tittleBox{
+    font-size: xxx-large;
+    text-align: center;
+}
+
+hr{
+    
+    text-align: center;
+    margin: 1px;
+    width: 100%;
+}
+
+
+
+
+.biblio{
+    background: blue;
+}
+
+.sportif{
+    background: green;
+}
+
+.cafe{
+    background: red;
+}
+
+.aide{
+    background: orange;
+}
+
+.loisirs{
+    background: magenta;
+}
+
+.box{
+    font-size: xx-large;
+    width: 70%;
+    padding: 10px;
+    padding-right: 20px;
+    border-radius: 45px;
+    text-align: right;
+    color: white;
+    margin: 1%;
+}
